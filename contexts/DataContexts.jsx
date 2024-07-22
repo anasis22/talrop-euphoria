@@ -11,6 +11,7 @@ export const DataProvider = ({ children }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [error,setError] = useState();
 
   useEffect(() => {
     fetch("../data/data.json")
