@@ -14,7 +14,7 @@ export const DataProvider = ({ children }) => {
   const [error,setError] = useState();
 
   useEffect(() => {
-    fetch("../data/data.json")
+    fetch("./data.json")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Network response was not ok");
@@ -23,7 +23,7 @@ export const DataProvider = ({ children }) => {
       })
       .then((data) => {
         setData(data);
-        console.log()
+        console.log(data)
         setLoading(false);
       })
       .catch((error) => {
