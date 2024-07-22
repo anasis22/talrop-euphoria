@@ -2,7 +2,7 @@
     {
         "id": 1,
         "heading" : "New Arrival",
-        "img": "./assets/images/knitted-joggers.jpg",
+        "img": "/assets/images/knitted-joggers.jpg",
         "title": "Knitted Joggers"
     },
     {
