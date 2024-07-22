@@ -38,7 +38,7 @@ export const DataProvider = ({ children }) => {
   };
 
   const slides = [
-    { id: 1, backgroundImage: "url(./src/assets/images/bg-1.jpg)" },
+    { id: 1, backgroundImage: "url(../../src/assets/images/bg-1.jpg)" },
     { id: 2, backgroundImage: "url(./src/assets/images/bg-2.jpg)" },
     { id: 3, backgroundImage: "url(./src/assets/images/bg-3.jpg)" },
   ];
