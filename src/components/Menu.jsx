@@ -8,7 +8,7 @@ import { useData } from "../../contexts/DataContexts";
 const Menu = () => {
     const {menuOpen,openingAndCloseMenu} = useData()
   return (
-    <div className={`w-[16%] h-full p-4 bg-white flex items-center justify-start pt-12 flex-col absolute z-10 -right-60 transition-all
+    <div className={`w-[16%] h-screen p-4 bg-white flex overflow-hidden items-center justify-start pt-12 flex-col fixed z-10 -right-60 transition-all
     xsm:w-36
     sm:w-44
     ${menuOpen && 'right-0'}`}>
@@ -17,7 +17,10 @@ const Menu = () => {
         <img className="w-5" src={MenuClose} alt="close" />
       </button>
 
-      <ul className="w-[70%] flex items-center justify-around">
+      <ul className="flex items-center justify-between
+      xsm:w-[90%]
+      sm:w-[90%]
+      md:w-[80%]">
         <li>
           <button className="bg-[#F6F6F6] p-2 rounded-md">
             <img className="

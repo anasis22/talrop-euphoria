@@ -21,7 +21,7 @@ const Banner = () => {
           <div
             key={slide.id}
             className="w-full
-            xsm:h-[250px]
+            xsm:h-[300px]
             sm:h-[450px]
             md:h-[500px]
             lg:h-[710px]

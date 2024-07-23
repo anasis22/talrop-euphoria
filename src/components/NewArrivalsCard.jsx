@@ -6,9 +6,9 @@ const NewArrivalsCard = () => {
   return (
     <div className='flex items-center justify-center gap-24 mt-8
     xsm:flex-col xsm:gap-12
-    sm:flex-col
-    md:flex-col
-    lg:flex-col'>
+    sm:flex-row sm:flex-wrap
+    md:flex-row md:flex-wrap
+    lg:flex-row lg:flex-wrap'>
       {data.map((el) => {
         return (
             <div key={el.id} className='cursor-pointer'>

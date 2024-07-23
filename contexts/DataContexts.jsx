@@ -48,6 +48,17 @@ export const DataProvider = ({ children }) => {
       });
   }, []);
 
+  useEffect(() => {
+    if (menuOpen) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+    return () => {
+      document.body.classList.remove("overflow-hidden");
+    };
+  }, [menuOpen]);
+
   const openingAndCloseMenu = () => {
     setMenuOpen(!menuOpen);
   };
