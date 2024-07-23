@@ -2,25 +2,25 @@
     {
         "id": 1,
         "heading" : "New Arrival",
-        "img": "../../src/assets/images/knitted-joggers.jpg",
+        "img": "knitted-joggers.jpg",
         "title": "Knitted Joggers"
     },
     {
         "id": 2,
         "heading" : "New Arrival",
-        "img": "../src/assets/images/full-sleeve.jpg",
+        "img": "full-sleeve.jpg",
         "title": "Full Sleeve"
     },
     {
         "id": 3,
         "heading" : "New Arrival",
-        "img": "../src/assets/images/active-tshirts.jpg",
+        "img": "active-tshirts.jpg",
         "title": "Active T-Shirts"
     },
     {
         "id": 4,
         "heading" : "New Arrival",
-        "img": "../src/assets/images/urban-shirts.jpg",
+        "img": "urban-shirts.jpg",
         "title": "Urban Shirts"
     }
 ]

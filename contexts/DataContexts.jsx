@@ -1,4 +1,8 @@
 import React, { useContext, useState, useEffect } from "react";
+import knittedJoggers from "../src/assets/images/knitted-joggers.jpg"
+import fullSleeve from "../src/assets/images/full-sleeve.jpg"
+import activeTshirts from "../src/assets/images/active-tshirts.jpg"
+import urbanShirts from "../src/assets/images/urban-shirts.jpg"
 
 const DataContext = React.createContext();
 
@@ -13,6 +17,13 @@ export const DataProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [error,setError] = useState();
 
+  const imageMap = {
+    "knitted-joggers.jpg" : knittedJoggers,
+    "full-sleeve.jpg" : fullSleeve,
+    "active-tshirts.jpg" : activeTshirts,
+    "urban-shirts.jpg" : urbanShirts
+  }
+
   useEffect(() => {
     fetch("./data.json")
       .then((res) => {
@@ -22,8 +33,12 @@ export const DataProvider = ({ children }) => {
         return res.json();
       })
       .then((data) => {
-        setData(data);
         console.log(data)
+        const updatedData = data.map(el => ({
+          ...el,
+          img: imageMap[el.img]
+        }))
+        setData(updatedData);
         setLoading(false);
       })
       .catch((error) => {
@@ -38,7 +53,7 @@ export const DataProvider = ({ children }) => {
   };
 
   const slides = [
-    { id: 1, backgroundImage: "url(../../src/assets/images/bg-1.jpg)" },
+    { id: 1, backgroundImage: "url(./src/assets/images/bg-1.jpg)" },
     { id: 2, backgroundImage: "url(./src/assets/images/bg-2.jpg)" },
     { id: 3, backgroundImage: "url(./src/assets/images/bg-3.jpg)" },
   ];
