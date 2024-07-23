@@ -3,9 +3,9 @@ import knittedJoggers from "../src/assets/images/knitted-joggers.jpg"
 import fullSleeve from "../src/assets/images/full-sleeve.jpg"
 import activeTshirts from "../src/assets/images/active-tshirts.jpg"
 import urbanShirts from "../src/assets/images/urban-shirts.jpg"
-import bg1 from "../src/assets/images/bg-1.jg"
-import bg2 from "../src/assets/images/bg-2.jg"
-import bg3 from "../src/assets/images/bg-3.jg"
+import bg1 from "../src/assets/images/bg-1.jpg"
+import bg2 from "../src/assets/images/bg-2.jpg"
+import bg3 from "../src/assets/images/bg-3.jpg"
 
 const DataContext = React.createContext();
 
