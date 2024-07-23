@@ -3,9 +3,6 @@ import knittedJoggers from "../src/assets/images/knitted-joggers.jpg"
 import fullSleeve from "../src/assets/images/full-sleeve.jpg"
 import activeTshirts from "../src/assets/images/active-tshirts.jpg"
 import urbanShirts from "../src/assets/images/urban-shirts.jpg"
-import bg1 from "../src/assets/images/bg-1.jpg"
-import bg2 from "../src/assets/images/bg-2.jpg"
-import bg3 from "../src/assets/images/bg-3.jpg"
 
 const DataContext = React.createContext();
 
@@ -55,14 +52,8 @@ export const DataProvider = ({ children }) => {
     setMenuOpen(!menuOpen);
   };
 
-  const slides = [
-    { id: 1, backgroundImage: bg1 },
-    { id: 2, backgroundImage: bg2 },
-    { id: 3, backgroundImage: bg3 },
-  ];
 
   const value = {
-    slides,
     currentSlide,
     setCurrentSlide,
     menuOpen,

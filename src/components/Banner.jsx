@@ -2,9 +2,17 @@ import React from "react";
 import { useData } from "../../contexts/DataContexts";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import bg1 from "../assets/images/bg-1.jpg"
+import bg2 from "../assets/images/bg-2.jpg"
+import bg3 from "../assets/images/bg-3.jpg"
 
 const Banner = () => {
-  const { slides } = useData();
+
+  const slides = [
+    { id: 1, backgroundImage: bg1 },
+    { id: 2, backgroundImage: bg2 },
+    { id: 3, backgroundImage: bg3 },
+  ];
 
   return (
     <div className="w-full h-full ">
@@ -20,7 +28,7 @@ const Banner = () => {
             flex items-center justify-start
             "
             style={{
-              backgroundImage: slide.backgroundImage,
+              backgroundImage: `url(${slide.backgroundImage})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
             }}
