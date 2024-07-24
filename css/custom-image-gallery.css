@@ -1,0 +1,23 @@
+.image-gallery{
+    /* background-color: blueviolet; */
+    width: 100%;
+}
+
+.image-gallery-thumbnail.active{
+    border: 3.5px solid grey;
+    border-radius: 6px;
+}
+
+.image-gallery-thumbnail-inner{
+    width: 4rem;
+    border-radius: 6px;
+}
+
+.image-gallery-thumbnail{
+    width: 4.5rem;
+}
+
+.image-gallery-left-nav,
+.image-gallery-right-nav {
+  display: none !important;
+}

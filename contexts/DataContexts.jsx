@@ -21,7 +21,7 @@ export const DataProvider = ({ children }) => {
     "knitted-joggers.jpg" : knittedJoggers,
     "full-sleeve.jpg" : fullSleeve,
     "active-tshirts.jpg" : activeTshirts,
-    "urban-shirts.jpg" : urbanShirts
+    "urban-shirts.jpg" : urbanShirts,
   }
 
   useEffect(() => {
@@ -36,7 +36,7 @@ export const DataProvider = ({ children }) => {
         console.log(data)
         const updatedData = data.map(el => ({
           ...el,
-          img: imageMap[el.img]
+          img: imageMap[el.img],
         }))
         setData(updatedData);
         setLoading(false);
@@ -63,13 +63,17 @@ export const DataProvider = ({ children }) => {
     setMenuOpen(!menuOpen);
   };
 
+  const [selectedProducts,setSelectedProducts] = useState()
+
 
   const value = {
     currentSlide,
     setCurrentSlide,
     menuOpen,
     openingAndCloseMenu,
-    data
+    data,
+    selectedProducts,
+    setSelectedProducts
   };
 
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;

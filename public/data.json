@@ -3,24 +3,48 @@
         "id": 1,
         "heading" : "New Arrival",
         "img": "knitted-joggers.jpg",
-        "title": "Knitted Joggers"
+        "thumbnailImgs" :[
+            "knitted-joggers.jpg",
+             "active-tshirts.jpg"
+        ],
+        "title": "Knitted Joggers",
+        "ratings": 2.5,
+        "price" : "$23.00"
     },
     {
         "id": 2,
         "heading" : "New Arrival",
         "img": "full-sleeve.jpg",
-        "title": "Full Sleeve"
+        "thumbnailImgs" :[
+            "full-sleeve.jpg",
+            "active-tshirts.jpg"
+        ],
+        "title": "Full Sleeve",
+        "ratings": 4.5,
+        "price" : "$15.00"
     },
     {
         "id": 3,
         "heading" : "New Arrival",
         "img": "active-tshirts.jpg",
-        "title": "Active T-Shirts"
+        "thumbnailImgs" :[
+            "active-tshirts.jpg",
+            "urban-shirts.jpg"
+        ],
+        "title": "Active T-Shirts",
+        "ratings": 1.5,
+        "price" : "$30.00"
     },
     {
         "id": 4,
         "heading" : "New Arrival",
         "img": "urban-shirts.jpg",
-        "title": "Urban Shirts"
+        "thumbnailImgs" :[
+            "urban-shirts.jpg",
+            "active-tshirts.jpg"
+        ],
+        "title": "Urban Shirts",
+        "ratings": 3.5,
+        "price" : "$18.00"
     }
 ]
