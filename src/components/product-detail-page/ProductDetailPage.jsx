@@ -2,17 +2,17 @@ import React from "react";
 import Navbar from "../Navbar";
 import PDetails from "../PDetails";
 import PpriceAndDetails from "../PpriceAndDetails";
+import Menu from "../Menu";
 
 const ProductDetailPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <section className="w-[90%] flex items-center justify-center">
-        <Navbar />
-      </section>
+    <div className="w-screen relative flex items-center justify-start flex-col">
+      <Navbar />
       <section className=" w-[90%] flex items-center justify-center">
         <PDetails />
         <PpriceAndDetails />
       </section>
+      <Menu />
     </div>
   );
 };

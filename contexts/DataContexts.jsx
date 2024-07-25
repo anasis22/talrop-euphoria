@@ -60,11 +60,11 @@ export const DataProvider = ({ children }) => {
   }, [menuOpen]);
 
   const openingAndCloseMenu = () => {
+    console.log('menu toggled:', menuOpen)
     setMenuOpen(!menuOpen);
   };
 
   const [selectedProducts,setSelectedProducts] = useState()
-
 
   const value = {
     currentSlide,
