@@ -1,8 +1,8 @@
 import React from "react";
-import WishList from "../assets/icons/wishlist.svg"
-import Account from "../assets/icons/account.svg"
-import Cart from "../assets/icons/cart.svg"
-import MenuClose from "../assets/icons/menuClose.png"
+import WishList from "/assets/icons/wishlist.svg"
+import Account from "/assets/icons/account.svg"
+import Cart from "/assets/icons/cart.svg"
+import MenuClose from "/assets/icons/menuClose.png"
 import { useData } from "../../contexts/DataContexts";
 
 const Menu = () => {

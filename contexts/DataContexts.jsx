@@ -1,8 +1,8 @@
 import React, { useContext, useState, useEffect } from "react";
-import knittedJoggers from "../src/assets/images/knitted-joggers.jpg"
-import fullSleeve from "../src/assets/images/full-sleeve.jpg"
-import activeTshirts from "../src/assets/images/active-tshirts.jpg"
-import urbanShirts from "../src/assets/images/urban-shirts.jpg"
+import knittedJoggers from "/assets/images/knitted-joggers.jpg"
+import fullSleeve from "/assets/images/full-sleeve.jpg"
+import activeTshirts from "/assets/images/active-tshirts.jpg"
+import urbanShirts from "/assets/images/urban-shirts.jpg"
 
 const DataContext = React.createContext();
 

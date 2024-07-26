@@ -2,9 +2,9 @@ import React from "react";
 import { useData } from "../../contexts/DataContexts";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import bg1 from "../assets/images/bg-1.jpg"
-import bg2 from "../assets/images/bg-2.jpg"
-import bg3 from "../assets/images/bg-3.jpg"
+import bg1 from "/assets/images/bg-1.jpg"
+import bg2 from "/assets/images/bg-2.jpg"
+import bg3 from "/assets/images/bg-3.jpg"
 
 const Banner = () => {
 

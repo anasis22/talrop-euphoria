@@ -1,13 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useData } from "../../contexts/DataContexts";
-import RightArrow from "../assets/icons/right-arrow-light.svg";
-import star from "../assets/icons/star.svg";
-import right from "../assets/icons/arrow-right.svg";
-import cart from "../assets/icons/cart-1.svg"
-import creditCard from "../assets/icons/credit card.svg"
-import truck from "../assets/icons/truck.svg"
-import freeReturn from "../assets/icons/Free-Shipping&Returns.svg"
-import sizeAndFit from "../assets/icons/Size&Fit.svg"
+import RightArrow from "/assets/icons/right-arrow-light.svg";
+import star from "/assets/icons/star.svg";
+import right from "/assets/icons/arrow-right.svg";
+import cart from "/assets/icons/cart-1.svg"
+import creditCard from "/assets/icons/credit card.svg"
+import truck from "/assets/icons/truck.svg"
+import freeReturn from "/assets/icons/Free-Shipping&Returns.svg"
+import sizeAndFit from "/assets/icons/Size&Fit.svg"
 
 const PpriceAndDetails = () => {
   const { selectedProducts } = useData();

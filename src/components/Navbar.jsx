@@ -1,10 +1,10 @@
 import React from "react";
-import Logo from "../assets/icons/Logo.svg";
-import Search from "../assets/icons/search.svg";
-import WishList from "../assets/icons/wishlist.svg";
-import Account from "../assets/icons/account.svg";
-import Cart from "../assets/icons/cart.svg";
-import MenuIcon from "../assets/icons/menuIcon.png";
+import Logo from "/assets/icons/Logo.svg";
+import Search from "/assets/icons/search.svg";
+import WishList from "/assets/icons/wishlist.svg";
+import Account from "/assets/icons/account.svg";
+import Cart from "/assets/icons/cart.svg";
+import MenuIcon from "/assets/icons/menuIcon.png";
 import { useData } from "../../contexts/DataContexts";
 
 const Navbar = () => {

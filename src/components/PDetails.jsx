@@ -8,8 +8,8 @@ const PDetails = () => {
   const { data , selectedProducts } = useData();
 
   const imgGallery = selectedProducts.thumbnailImgs.map((img) => ({
-    original : `/src/assets/images/${img}`,
-    thumbnail: `/src/assets/images/${img}`
+    original : `/assets/images/${img}`,
+    thumbnail: `/assets/images/${img}`
   }))
 
   return (
