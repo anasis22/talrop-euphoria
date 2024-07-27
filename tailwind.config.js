@@ -11,7 +11,9 @@ export default {
       },
       backgroundImage: {
         'card-1' : "url('/assets/images/bg-2.jpg')",
-        'card-2' : "url('/assets/images/bg-3.jpg')"
+        'card-2' : "url('/assets/images/bg-3.jpg')",
+        'midBannerLeft' : "url('/assets/images/bg-4.jpg')",
+        'midBannerRight' : "url('/assets/images/bg-5.jpg')",
       },
       backgroundSize: {
         '200' : '200%',

@@ -3,6 +3,14 @@ import knittedJoggers from "/assets/images/knitted-joggers.jpg"
 import fullSleeve from "/assets/images/full-sleeve.jpg"
 import activeTshirts from "/assets/images/active-tshirts.jpg"
 import urbanShirts from "/assets/images/urban-shirts.jpg"
+import shirts from "/assets/images/shirts.jpg"
+import printedTshirts from "/assets/images/printed-tshirts.jpg"
+import plainTshirts from "/assets/images/plain-tshirts.jpg"
+import poloTshirt from "/assets/images/polo-tshirt.jpg"
+import hoodies from "/assets/images/hoodies.jpg"
+import jeans from "/assets/images/jeans.jpg"
+import activeWear from "/assets/images/active-wear.jpg"
+import boxers from "/assets/images/boxers.jpg"
 
 const DataContext = React.createContext();
 
@@ -22,6 +30,14 @@ export const DataProvider = ({ children }) => {
     "full-sleeve.jpg" : fullSleeve,
     "active-tshirts.jpg" : activeTshirts,
     "urban-shirts.jpg" : urbanShirts,
+    "shirts.jpg" : shirts,
+    "printed-tshirts.jpg" : printedTshirts,
+    "plain-tshirts.jpg" : plainTshirts,
+    "polo-tshirt.jpg" : poloTshirt,
+    "hoodies.jpg" : hoodies,
+    "jeans.jpg" : jeans,
+    "active-wear.jpg" : activeWear,
+    "boxers.jpg" : boxers
   }
 
   useEffect(() => {
@@ -47,6 +63,7 @@ export const DataProvider = ({ children }) => {
         setLoading(false);
       });
   }, []);
+
 
   useEffect(() => {
     if (menuOpen) {

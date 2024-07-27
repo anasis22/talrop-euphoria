@@ -5,8 +5,8 @@ import { useData } from "../../contexts/DataContexts";
 import "../../css/custom-image-gallery.css"
 
 const PDetails = () => {
-  const { data , selectedProducts } = useData();
-
+  const { selectedProducts } = useData();
+  
   const imgGallery = selectedProducts.thumbnailImgs.map((img) => ({
     original : `/assets/images/${img}`,
     thumbnail: `/assets/images/${img}`

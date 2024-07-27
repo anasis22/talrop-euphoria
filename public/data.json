@@ -46,5 +46,101 @@
         "title": "Urban Shirts",
         "ratings": 3.5,
         "price" : "$18.00"
+    },
+    {
+        "id": 5,
+        "heading" : "Categories for Men",
+        "img": "shirts.jpg",
+        "thumbnailImgs" :[
+            "shirts.jpg",
+            "boxers.jpg"
+        ],
+        "title": "Shirts",
+        "ratings": 3.5,
+        "price" : "$18.00"
+    },
+    {
+        "id": 6,
+        "heading" : "Categories for Men",
+        "img": "printed-tshirts.jpg",
+        "thumbnailImgs" :[
+            "printed-tshirts.jpg",
+            "shirts.jpg"
+        ],
+        "title": "Printed T-shirts",
+        "ratings": 3.5,
+        "price" : "$18.00"
+    },
+    {
+        "id": 7,
+        "heading" : "Categories for Men",
+        "img": "plain-tshirts.jpg",
+        "thumbnailImgs" :[
+            "plain-tshirts.jpg",
+            "printed-tshirts.jpg"
+        ],
+        "title": "Plain T-Shirts",
+        "ratings": 3.5,
+        "price" : "$18.00"
+    },
+    {
+        "id": 8,
+        "heading" : "Categories for Men",
+        "img": "polo-tshirt.jpg",
+        "thumbnailImgs" :[
+            "polo-tshirt.jpg",
+            "plain-tshirts.jpg"
+        ],
+        "title": "Polo T-shirt",
+        "ratings": 3.5,
+        "price" : "$18.00"
+    },
+    {
+        "id": 9,
+        "heading" : "Categories for Men",
+        "img": "hoodies.jpg",
+        "thumbnailImgs" :[
+            "hoodies.jpg",
+            "polo-tshirt.jpg"
+        ],
+        "title": "Hoodies and Sweatshirt",
+        "ratings": 3.5,
+        "price" : "$18.00"
+    },
+    {
+        "id": 10,
+        "heading" : "Categories for Men",
+        "img": "jeans.jpg",
+        "thumbnailImgs" :[
+            "jeans.jpg",
+            "hoodies.jpg"
+        ],
+        "title": "Jeans",
+        "ratings": 3.5,
+        "price" : "$18.00"
+    },
+    {
+        "id": 11,
+        "heading" : "Categories for Men",
+        "img": "active-wear.jpg",
+        "thumbnailImgs" :[
+            "active-wear.jpg",
+            "jeans.jpg"
+        ],
+        "title": "Active Wear",
+        "ratings": 3.5,
+        "price" : "$18.00"
+    },
+    {
+        "id": 12,
+        "heading" : "Categories for Men",
+        "img": "boxers.jpg",
+        "thumbnailImgs" :[
+            "boxers.jpg",
+            "active-wear.jpg"
+        ],
+        "title": "Boxers",
+        "ratings": 3.5,
+        "price" : "$18.00"
     }
 ]
