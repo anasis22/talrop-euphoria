@@ -56,8 +56,9 @@
             "boxers.jpg"
         ],
         "title": "Shirts",
-        "ratings": 3.5,
-        "price" : "$18.00"
+        "ratings": 2.5,
+        "price" : "$28.00",
+        "gender" : "Men"
     },
     {
         "id": 6,
@@ -68,8 +69,9 @@
             "shirts.jpg"
         ],
         "title": "Printed T-shirts",
-        "ratings": 3.5,
-        "price" : "$18.00"
+        "ratings": 1.5,
+        "price" : "$10.00",
+        "gender" : "Men"
     },
     {
         "id": 7,
@@ -80,8 +82,9 @@
             "printed-tshirts.jpg"
         ],
         "title": "Plain T-Shirts",
-        "ratings": 3.5,
-        "price" : "$18.00"
+        "ratings": 4.5,
+        "price" : "$15.00",
+        "gender" : "Men"
     },
     {
         "id": 8,
@@ -92,8 +95,9 @@
             "plain-tshirts.jpg"
         ],
         "title": "Polo T-shirt",
-        "ratings": 3.5,
-        "price" : "$18.00"
+        "ratings": 3.0,
+        "price" : "$12.00",
+        "gender" : "Men"
     },
     {
         "id": 9,
@@ -104,8 +108,9 @@
             "polo-tshirt.jpg"
         ],
         "title": "Hoodies and Sweatshirt",
-        "ratings": 3.5,
-        "price" : "$18.00"
+        "ratings": 3.3,
+        "price" : "$20.00",
+        "gender" : "Men"
     },
     {
         "id": 10,
@@ -116,8 +121,9 @@
             "hoodies.jpg"
         ],
         "title": "Jeans",
-        "ratings": 3.5,
-        "price" : "$18.00"
+        "ratings": 3.1,
+        "price" : "$70.00",
+        "gender" : "Men"
     },
     {
         "id": 11,
@@ -128,8 +134,9 @@
             "jeans.jpg"
         ],
         "title": "Active Wear",
-        "ratings": 3.5,
-        "price" : "$18.00"
+        "ratings": 2.0,
+        "price" : "$10.00",
+        "gender" : "Men"
     },
     {
         "id": 12,
@@ -140,7 +147,60 @@
             "active-wear.jpg"
         ],
         "title": "Boxers",
+        "ratings": 2.5,
+        "price" : "$18.00",
+        "gender" : "Men"
+    },
+    {
+        "id": 13,
+        "heading" : "Categories for Women",
+        "img": "hoodies-girl.jpg",
+        "thumbnailImgs" :[
+            "hoodies-girl.jpg",
+            "boxers-girl.jpg"
+        ],
+        "title": "Hoodies and Sweatshirt",
         "ratings": 3.5,
-        "price" : "$18.00"
+        "price" : "$12.00",
+        "gender" : "Women"
+    },
+    {
+        "id": 14,
+        "heading" : "Categories for Women",
+        "img": "coats-girl.jpg",
+        "thumbnailImgs" :[
+            "coats-girl.jpg",
+            "hoodies-girl.jpg"
+        ],
+        "title": "Coats & Parkas",
+        "ratings": 4.5,
+        "price" : "$38.00",
+        "gender" : "Women"
+    },
+    {
+        "id": 15,
+        "heading" : "Categories for Women",
+        "img": "tees-girl.jpg",
+        "thumbnailImgs" :[
+            "tees-girl.jpg",
+            "coats-girl.jpg"
+        ],
+        "title": "Tees & T-Shirt",
+        "ratings": 4.7,
+        "price" : "$48.00",
+        "gender" : "Women"
+    },
+    {
+        "id": 16,
+        "heading" : "Categories for Women",
+        "img": "boxers-girl.jpg",
+        "thumbnailImgs" :[
+            "boxers-girl.jpg",
+            "coats-girl.jpg"
+        ],
+        "title": "Boxers",
+        "ratings": 4.5,
+        "price" : "$37.05",
+        "gender" : "Women"
     }
 ]

@@ -40,6 +40,7 @@ const PpriceAndDetails = () => {
       <div className="flex mt-4">
         <p className="text-[#807D7E] text-sm">Shop</p>
         <img className="w-1 mt-1 ml-4" src={RightArrow} alt="right" />
+        <p className="text-[#807D7E] text-sm ml-4">{selectedProducts.gender}</p>
       </div>
 
       <h1 className="text-2xl mt-4">{selectedProducts.title}</h1>

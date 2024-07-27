@@ -21,3 +21,7 @@
 .image-gallery-right-nav {
   display: none !important;
 }
+
+hr:first-child{
+    display: none;
+}
