@@ -1,5 +1,6 @@
 import React from "react";
 import WomenCategories from "../WomenCategories";
+import TopBrands from "../TopBrands";
 
 const FifthPage = () => {
   return (
@@ -11,6 +12,7 @@ const FifthPage = () => {
         </h2>
       </div>
       <WomenCategories />
+      <TopBrands />
     </div>
   );
 };
