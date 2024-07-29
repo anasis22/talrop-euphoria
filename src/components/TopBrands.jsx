@@ -2,7 +2,7 @@ import React from 'react'
 import Nike from "/assets/images/nike.jpg"
 import HandM from "/assets/images/handm.jpg"
 import Levis from "/assets/images/levis.jpg"
-import Uspa from "/assets/images/uspa.jpg"
+import USPA from "/assets/images/USPA.jpg"
 import Puma from "/assets/images/puma.jpg"
 
 const TopBrands = () => {
@@ -21,7 +21,7 @@ const TopBrands = () => {
             <img className='rounded-lg' src={Levis} alt="levis" />
         </li>
         <li className=''>
-            <img className='rounded-lg' src={Uspa} alt="uspa" />
+            <img className='rounded-lg' src={USPA} alt="uspa" />
         </li>
         <li className=''>
             <img className='rounded-lg' src={Puma} alt="puma" />
