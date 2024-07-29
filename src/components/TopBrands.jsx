@@ -1,9 +1,9 @@
 import React from 'react'
-import nike from "/assets/images/nike.jpg"
+import Nike from "/assets/images/nike.jpg"
 import HandM from "/assets/images/handm.jpg"
-import levis from "/assets/images/levis.jpg"
-import uspa from "/assets/images/uspa.jpg"
-import puma from "/assets/images/puma.jpg"
+import Levis from "/assets/images/levis.jpg"
+import Uspa from "/assets/images/uspa.jpg"
+import Puma from "/assets/images/puma.jpg"
 
 const TopBrands = () => {
   return (
@@ -12,19 +12,19 @@ const TopBrands = () => {
       <p className='text-white font-extralight'>Up To <span className='text-[#FBD103]'>60%</span> off on brands</p>
       <ul className='w-[80%] flex items-center justify-center gap-4'>
         <li className=''>
-            <img className='rounded-lg' src={nike} alt="nike" />
+            <img className='rounded-lg' src={Nike} alt="nike" />
         </li>
         <li className=''>
             <img className='rounded-lg' src={HandM} alt="h&m" />
         </li>
         <li className=''>
-            <img className='rounded-lg' src={levis} alt="levis" />
+            <img className='rounded-lg' src={Levis} alt="levis" />
         </li>
         <li className=''>
-            <img className='rounded-lg' src={uspa} alt="uspa" />
+            <img className='rounded-lg' src={Uspa} alt="uspa" />
         </li>
         <li className=''>
-            <img className='rounded-lg' src={puma} alt="puma" />
+            <img className='rounded-lg' src={Puma} alt="puma" />
         </li>
        
       </ul>
