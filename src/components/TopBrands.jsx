@@ -1,6 +1,6 @@
 import React from 'react'
 import nike from "/assets/images/nike.jpg"
-import HandM from "/assets/images/h&m.jpg"
+import HandM from "/assets/images/handm.jpg"
 import levis from "/assets/images/levis.jpg"
 import uspa from "/assets/images/uspa.jpg"
 import puma from "/assets/images/puma.jpg"
