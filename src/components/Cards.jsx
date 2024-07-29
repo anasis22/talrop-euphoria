@@ -14,7 +14,7 @@ const Cards = () => {
         xsm:ml-8
         sm:ml-12
         md:ml-12'>
-            <p className='text-white'>Low Price</p>
+            <p className='text-white'>Low Prices</p>
             <h3 className='text-white font-bold mt-3
             xsm:text-2xl
             sm:text-3xl
