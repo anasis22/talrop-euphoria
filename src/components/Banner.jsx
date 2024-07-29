@@ -1,5 +1,4 @@
 import React from "react";
-import { useData } from "../../contexts/DataContexts";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import bg1 from "/assets/images/bg-1.jpg"

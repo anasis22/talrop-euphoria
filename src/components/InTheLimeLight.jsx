@@ -15,7 +15,7 @@ const InTheLimeLight = () => {
   };
 
   const handleWishListToggle = (event, productId) => {
-    event.stopPropagation(); // Prevent the click event from bubbling up to the parent div
+    event.stopPropagation();
     setWishListStatus(prevStatus => ({
       ...prevStatus,
       [productId]: !prevStatus[productId]
@@ -51,7 +51,7 @@ const InTheLimeLight = () => {
                 </div>
                 <p className="text-xs text-[#7F7F7F] mt-2">{el.brand}</p>
               </div>
-              <a className="bg-[#FFFFFF] absolute top-5 right-6 p-1.5 rounded-2xl z-10" onClick={(event) => handleWishListToggle(event, el.id)} >
+              <a className="bg-[#FFFFFF] absolute top-5 right-6 p-1.5 rounded-2xl z-10 transition-all" onClick={(event) => handleWishListToggle(event, el.id)} >
                 <img src={wishListStatus[el.id] ? heart : wishList} alt="heart" />
               </a>
             </div>

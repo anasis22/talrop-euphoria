@@ -19,6 +19,12 @@ import blackSweatshirt from "/assets/images/black-sweatshirt.jpg"
 import linePatternBlack from "/assets/images/line-pattern-black.jpg"
 import blackShorts from "/assets/images/black-shorts.jpg"
 import levenderHoddie from "/assets/images/levender-hoodie.jpg"
+import feedbackOne from "/assets/images/feedbackOne.jpg"
+import feedbackTwo from "/assets/images/feedbackTwo.jpg"
+import feedbackThree from "/assets/images/feedbackThree.jpg"
+import ratingStarOne from "/assets/images/ratingStarOne.jpg"
+import ratingStarTwo from "/assets/images/ratingStarTwo.jpg"
+import ratingStarThree from "/assets/images/ratingStarThree.jpg"
 
 
 const DataContext = React.createContext();
@@ -54,7 +60,16 @@ export const DataProvider = ({ children }) => {
     "black-sweatshirt.jpg": blackSweatshirt,
     "line-pattern-black.jpg": linePatternBlack,
     "black-shorts.jpg" : blackShorts,
-    "levender-hoodie.jpg": levenderHoddie
+    "levender-hoodie.jpg": levenderHoddie,
+    "feedbackOne.jpg" : feedbackOne,
+    "feedbackTwo.jpg" : feedbackTwo,
+    "feedbackThree.jpg" : feedbackThree,
+  }
+
+  const ratingStarImgMap = {
+    "ratingStarOne.jpg" : ratingStarOne,
+    "ratingStarTwo.jpg" : ratingStarTwo,
+    "ratingStarThree.jpg" : ratingStarThree,
   }
 
   useEffect(() => {
@@ -70,6 +85,7 @@ export const DataProvider = ({ children }) => {
         const updatedData = data.map(el => ({
           ...el,
           img: imageMap[el.img],
+          ratingStarImg: ratingStarImgMap[el.ratingStarImg]
         }))
         setData(updatedData);
         setLoading(false);

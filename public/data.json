@@ -258,5 +258,29 @@
         "price" : "$119.00",
         "gender" : "Women",
         "brand" : "Nike’s Brand"
+    },
+    {
+        "id": 21,
+        "heading" : "Feedback",
+        "img": "feedbackOne.jpg",
+        "ratingStarImg": "ratingStarOne.jpg",
+        "name" : "Floyd Miles",
+        "msg" : "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet. "  
+    },
+    {
+        "id": 22,
+        "heading" : "Feedback",
+        "img": "feedbackTwo.jpg",
+        "ratingStarImg": "ratingStarTwo.jpg",
+        "name" : "Ronald Richards",
+        "msg" : "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."    
+    },
+    {
+        "id": 23,
+        "heading" : "Feedback",
+        "img": "feedbackThree.jpg",
+        "ratingStarImg": "ratingStarThree.jpg",
+        "name" : "Savannah Nguyen",
+        "msg" : "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.  Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
     }
 ]
