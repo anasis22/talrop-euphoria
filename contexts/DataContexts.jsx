@@ -15,6 +15,11 @@ import hoodiesGirl from "/assets/images/hoodies-girl.jpg"
 import coatsGirl from "/assets/images/coats-girl.jpg"
 import teesGirl from "/assets/images/tees-girl.jpg"
 import boxersGirl from "/assets/images/boxers-girl.jpg"
+import blackSweatshirt from "/assets/images/black-sweatshirt.jpg"
+import linePatternBlack from "/assets/images/line-pattern-black.jpg"
+import blackShorts from "/assets/images/black-shorts.jpg"
+import levenderHoddie from "/assets/images/levender-hoodie.jpg"
+
 
 const DataContext = React.createContext();
 
@@ -45,7 +50,11 @@ export const DataProvider = ({ children }) => {
     "hoodies-girl.jpg" : hoodiesGirl,
     "coats-girl.jpg" : coatsGirl,
     "tees-girl.jpg" : teesGirl,
-    "boxers-girl.jpg" : boxersGirl
+    "boxers-girl.jpg" : boxersGirl,
+    "black-sweatshirt.jpg": blackSweatshirt,
+    "line-pattern-black.jpg": linePatternBlack,
+    "black-shorts.jpg" : blackShorts,
+    "levender-hoodie.jpg": levenderHoddie
   }
 
   useEffect(() => {

@@ -5,6 +5,7 @@ import ThirdPage from './third-page/ThirdPage'
 import MenCategories from './MenCategories.'
 import FourthPage from './fourth-page/FourthPage'
 import FifthPage from './fifth-page/FifthPage'
+import SixthPage from './sixth-page/SixthPage'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <ThirdPage />
       <FourthPage />
       <FifthPage />
+      <SixthPage />
     </div>
   )
 }

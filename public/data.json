@@ -202,5 +202,61 @@
         "ratings": 4.5,
         "price" : "$37.05",
         "gender" : "Women"
+    },
+    {
+        "id": 17,
+        "heading" : "In The Limelight",
+        "img": "black-sweatshirt.jpg",
+        "thumbnailImgs" :[
+            "black-sweatshirt.jpg",
+            "levender-hoodie.jpg"
+        ],
+        "title": "Black Sweatshirt",
+        "ratings": 3.5,
+        "price" : "$123.00",
+        "gender" : "Women",
+        "brand" : "Jhanvi’s  Brand"
+    },
+    {
+        "id": 18,
+        "heading" : "In The Limelight",
+        "img": "line-pattern-black.jpg",
+        "thumbnailImgs" :[
+            "line-pattern-black.jpg",
+            "black-sweatshirt.jpg"
+        ],
+        "title": "Line Pattern Black",
+        "ratings": 4.0,
+        "price" : "$37.00",
+        "gender" : "Women",
+        "brand" : "AS’s  Brand"
+    },
+    {
+        "id": 19,
+        "heading" : "In The Limelight",
+        "img": "black-shorts.jpg",
+        "thumbnailImgs" :[
+            "black-shorts.jpg",
+            "line-pattern-black.jpg"
+        ],
+        "title": "Black Shorts",
+        "ratings": 3.0,
+        "price" : "$37.00",
+        "gender" : "Women",
+        "brand" : "MM’s Brand"
+    },
+    {
+        "id": 20,
+        "heading" : "In The Limelight",
+        "img": "levender-hoodie.jpg",
+        "thumbnailImgs" :[
+            "levender-hoodie.jpg",
+            "black-shorts.jpg"
+        ],
+        "title": "Levender Hoodie",
+        "ratings": 4.0,
+        "price" : "$119.00",
+        "gender" : "Women",
+        "brand" : "Nike’s Brand"
     }
 ]
