@@ -89,7 +89,6 @@ export const DataProvider = ({ children }) => {
         return res.json();
       })
       .then((data) => {
-        console.log(data)
         const updatedData = data.map(el => ({
           ...el,
           img: imageMap[el.img],
@@ -118,7 +117,6 @@ export const DataProvider = ({ children }) => {
   }, [menuOpen]);
 
   const openingAndCloseMenu = () => {
-    console.log('menu toggled:', menuOpen)
     setMenuOpen(!menuOpen);
   };
 

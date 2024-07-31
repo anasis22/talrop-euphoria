@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useData } from "../../contexts/DataContexts";
 import RightArrow from "/assets/icons/right-arrow-light.svg";
 import star from "/assets/icons/star.svg";
@@ -30,10 +30,6 @@ const PpriceAndDetails = () => {
   ];
 
   const sizes = ['XS', 'S', 'M', 'L'];
-
-  useEffect(() => {
-    console.log('ProductDetails loaded:', selectedProducts);
-  }, [selectedProducts]);
 
   return (
     <div className=" items-center justify-center
