@@ -1,8 +1,8 @@
 import React from "react";
-import Cards from "../Cards";
-import NewArrivals from "../NewArrivals";
+import Cards from "../components/Cards";
+import NewArrivals from "../components/NewArrivals";
 
-const SecondPage = () => {
+const ScreenTwo = () => {
   return (
    <div className="w-full flex items-center justify-center flex-col">
     <Cards />
@@ -11,4 +11,4 @@ const SecondPage = () => {
   );
 };
 
-export default SecondPage;
+export default ScreenTwo;

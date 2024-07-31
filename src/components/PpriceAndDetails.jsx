@@ -36,8 +36,10 @@ const PpriceAndDetails = () => {
   }, [selectedProducts]);
 
   return (
-    <div className="ml-12">
-      <div className="flex mt-4">
+    <div className=" items-center justify-center
+    xsm:w-full xsm:ml-0 xsm:flex xsm:flex-col xsm:mt-8
+    md:w-auto md:mx-12 md:block">
+      <div className="flex">
         <p className="text-[#807D7E] text-sm">Shop</p>
         <img className="w-1 mt-1 ml-4" src={RightArrow} alt="right" />
         <p className="text-[#807D7E] text-sm ml-4">{selectedProducts.gender}</p>
@@ -94,45 +96,65 @@ const PpriceAndDetails = () => {
         </ul>
       </div>
 
-      <div className="flex gap-4 mt-4">
-        <button className="flex bg-base-color p-1.5 pr-8 pl-8 rounded-md">
+      <div className="flex gap-4 mt-8
+      xsm:flex-col xsm:w-[60%]
+      md:flex-row md:w-auto">
+        <button className="flex bg-base-color p-1.5 pr-8 pl-8 rounded-md  
+        xsm:items-center xsm:justify-center
+        ">
              <img className="mt-0.5 w-4" src={cart} alt="cart" />
-             <p className="ml-2 text-sm text-white">Add to cart</p>
+             <p className="ml-2 text-white
+             xsm:text-xs
+             lg:text-sm">Add to cart</p>
         </button>
         <button className="p-1.5 pr-8 pl-8 border-black border rounded-md">
-             <p className="text-sm text-black">{selectedProducts.price}</p>
+             <p className=" text-black
+             xsm:text-xs
+             lg:text-sm">{selectedProducts.price}</p>
         </button>
       </div>
 
       <hr className="border-slate-400lack border-[.5px] w-full mt-4" />
 
-      <div className="flex mt-5">
+      <div className="flex mt-5
+      xsm:flex-col
+      sm:flex-row">
         <ul>
             <li className="flex">
                 <a className="p-2 bg-[#F6F6F6] rounded-xl">
                     <img className="w-3" src={creditCard} alt="creditcard" />
                 </a>
-                <p className="text-[#3C4242] ml-3 text-sm mt-1">Secure payment</p>
+                <p className="text-[#3C4242] ml-3 mt-1
+                xsm:text-[10.5px]
+                lg:text-sm">Secure payment</p>
             </li>
             <li className="flex mt-4">
                 <a className="p-2 bg-[#F6F6F6] rounded-xl">
                     <img className="w-3" src={truck} alt="creditcard" />
                 </a>
-                <p className="text-[#3C4242] ml-3 text-sm mt-1">Free shipping</p>
+                <p className="text-[#3C4242] ml-3 mt-1
+                xsm:text-[10.5px]
+                lg:text-sm">Free shipping</p>
             </li>
         </ul>
-        <ul className="ml-5">
+        <ul className="
+        xsm:ml-0 xsm:mt-5
+        sm:ml-5 sm:mt-0">
             <li className="flex">
                 <a className="p-2 bg-[#F6F6F6] rounded-xl">
                     <img className="w-3" src={sizeAndFit} alt="creditcard" />
                 </a>
-                <p className="text-[#3C4242] ml-3 text-sm mt-1">Size & Fit</p>
+                <p className="text-[#3C4242] ml-3 mt-1
+                xsm:text-[10.5px]
+                lg:text-sm">Size & Fit</p>
             </li>
             <li className="flex mt-4">
                 <a className="p-2 bg-[#F6F6F6] rounded-xl">
                     <img className="w-3" src={freeReturn} alt="creditcard" />
                 </a>
-                <p className="text-[#3C4242] ml-3 text-sm mt-1">Free Shipping & Returns</p>
+                <p className="text-[#3C4242] ml-3 mt-1
+                xsm:text-[10.5px]
+                lg:text-sm">Free Shipping & Returns</p>
             </li>
         </ul>
       </div>

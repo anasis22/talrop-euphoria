@@ -26,6 +26,7 @@ const NewArrivalsCard = () => {
                 src={el.img}
                 alt={el.title}
                 onClick={() => handleImageClick(el)}
+                className="hover:scale-105 transition-transform"
               />
               <p className="text-t-color text-sm font-semibold mt-4">{el.title}</p>
             </div>

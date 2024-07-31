@@ -282,5 +282,61 @@
         "ratingStarImg": "ratingStarThree.jpg",
         "name" : "Savannah Nguyen",
         "msg" : "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.  Exercitation veniam consequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."
+    },
+    {
+        "id": 24,
+        "heading" : "Similar Products",
+        "img": "white-tshirt.jpg",
+        "thumbnailImgs" :[
+            "white-tshirt.jpg",
+            "black-shorts.jpg"
+        ],
+        "title": "White T-Shirt",
+        "ratings": 2.5,
+        "price" : "$13.00",
+        "gender" : "Women",
+        "brand" : "Priya's Brand"
+    },
+    {
+        "id": 25,
+        "heading" : "Similar Products",
+        "img": "dark-green-sweatshirt.jpg",
+        "thumbnailImgs" :[
+            "dark-green-sweatshirt.jpg",
+            "white-tshirt.jpg"
+        ],
+        "title": "Dark Green Sweatshirt",
+        "ratings": 4.5,
+        "price" : "$127.00",
+        "gender" : "Men",
+        "brand" : "Roboto's Brand"
+    },
+    {
+        "id": 26,
+        "heading" : "Similar Products",
+        "img": "levender-sweatshirt.jpg",
+        "thumbnailImgs" :[
+            "levender-sweatshirt.jpg",
+            "dark-green-sweatshirt.jpg"
+        ],
+        "title": "Levender Sweatshirt",
+        "ratings": 3.5,
+        "price" : "$133.00",
+        "gender" : "Women",
+        "brand" : "Jhanvi's Brand"
+    },
+    {
+        "id": 27,
+        "heading" : "Similar Products",
+        "img": "urban-jacket.jpg",
+        "thumbnailImgs" :[
+            "urban-jacket.jpg",
+            "dark-green-sweatshirt.jpg"
+        ],
+        "title": "Urban Jacket",
+        "ratings": 4.5,
+        "price" : "$79.00",
+        "gender" : "Men",
+        "brand" : "Sagar's Brand"
     }
 ]

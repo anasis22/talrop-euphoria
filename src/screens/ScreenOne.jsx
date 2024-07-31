@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from '../Navbar'
-import Banner from '../Banner'
-import Menu from '../Menu'
-import { useData } from '../../../contexts/DataContexts'
+import Navbar from '../components/Navbar'
+import Banner from '../components/Banner'
+import Menu from '../components/Menu'
+import { useData } from '../../contexts/DataContexts'
 
-const FirstPage = () => {
+const ScreenOne = () => {
   const {menuOpen,openingAndCloseMenu} = useData();
   return (
     <div 
@@ -16,4 +16,4 @@ const FirstPage = () => {
   )
 }
 
-export default FirstPage
+export default ScreenOne

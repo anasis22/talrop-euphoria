@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import wishList from "/assets/icons/wishlist.svg";
 import heart from "/assets/icons/heart.jpg";
 
-const InTheLimeLight = () => {
+const SimilarProducts = () => {
   const { data, setSelectedProducts } = useData();
   const [wishListStatus, setWishListStatus] = useState({})
   const navigate = useNavigate();
@@ -31,12 +31,14 @@ const InTheLimeLight = () => {
     lg:flex-row lg:flex-wrap"
     >
       {data.map((el) => {
-        if (el.heading === "In The Limelight") {
+        if (el.heading === "Similar Products") {
 
           return (
             <div
               key={el.id}
-              className="cursor-pointer relative"
+              className="cursor-pointer relative
+              xsm:w-auto
+              lg:w-[20%]"
               onClick={() => handleImageClick(el)}
             >
               <img src={el.img} alt={el.title} className="hover:scale-105 transition-transform" />
@@ -62,4 +64,4 @@ const InTheLimeLight = () => {
   );
 };
 
-export default InTheLimeLight;
+export default SimilarProducts;

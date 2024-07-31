@@ -22,7 +22,7 @@ const Feedback = () => {
           return (
             <div
               key={el.id}
-              className=" p-6 border border-[#BEBCBD] 
+              className=" p-6 border border-[#BEBCBD] overflow-hidden
             xsm:h-[160px] xsm:w-[78%] xsm:rounded-3xl
             lg:h-full lg:rounded-md lg:w-[32%]"
             >

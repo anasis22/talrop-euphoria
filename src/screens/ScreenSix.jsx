@@ -1,8 +1,8 @@
 import React from "react";
-import InTheLimeLight from "../InTheLimeLight";
-import Feedback from "../Feedback";
+import InTheLimeLight from "../components/InTheLimeLight";
+import Feedback from "../components/Feedback";
 
-const SixthPage = () => {
+const ScreenSix = () => {
   return (
     <div className="w-full flex items-center justify-center flex-col mt-12">
       <div className="flex w-[90%] ">
@@ -23,4 +23,4 @@ const SixthPage = () => {
   );
 };
 
-export default SixthPage;
+export default ScreenSix;

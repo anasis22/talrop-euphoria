@@ -1,8 +1,8 @@
 import React from "react";
-import WomenCategories from "../WomenCategories";
-import TopBrands from "../TopBrands";
+import WomenCategories from "../components/WomenCategories";
+import TopBrands from "../components/TopBrands";
 
-const FifthPage = () => {
+const ScreenFive = () => {
   return (
     <div className="w-full flex items-center justify-center flex-col mt-12">
       <div className="flex w-[90%] ">
@@ -17,4 +17,4 @@ const FifthPage = () => {
   );
 };
 
-export default FifthPage;
+export default ScreenFive

@@ -6,7 +6,7 @@ const Cards = () => {
     xsm:flex-col
     sm:flex-col
     md:flex-row">
-      <div className='w-[40%] h-[340px] rounded-md bg-card-1 bg-no-repeat bg-200 bg-25-top flex items-center justify-start cursor-pointer
+      <div className='w-[40%] h-[340px] rounded-md bg-card-1 bg-no-repeat bg-200 bg-25-top flex items-center justify-start cursor-pointer hover:scale-105 transition-transform
       xsm:w-[90%] xsm:h-[270px]
       sm:w-[90%] sm:h-[300px]
       md:w-[45%] md:h-[320px]'>
@@ -23,7 +23,7 @@ const Cards = () => {
             <p className='text-white mt-6 underline cursor-pointer'>Explore Items</p>
         </div>
       </div>
-      <div className='w-[40%] h-[340px] rounded-md bg-card-2 bg-no-repeat bg-200 bg-25-top flex items-center justify-start cursor-pointer
+      <div className='w-[40%] h-[340px] rounded-md bg-card-2 bg-no-repeat bg-200 bg-25-top flex items-center justify-start cursor-pointer hover:scale-105 transition-transform
       xsm:w-[90%] xsm:h-[270px] xsm:mt-6
       sm:w-[90%] sm:h-[300px] sm:mt-8
       md:w-[45%] md:h-[320px] md:mt-0'> 

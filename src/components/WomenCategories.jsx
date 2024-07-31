@@ -26,7 +26,7 @@ const WomenCategories = () => {
               <img
                 src={el.img}
                 alt={el.title}
-                
+                className="hover:scale-105 transition-transform"
               />
               <div className="w-full mt-4">
                 <div className="w-full  flex items-center justify-between">

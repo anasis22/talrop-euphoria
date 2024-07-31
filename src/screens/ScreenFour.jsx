@@ -1,7 +1,7 @@
 import React from "react";
-import MenCategories from "../MenCategories.";
+import MenCategories from "../components/MenCategories.";
 
-const FourthPage = () => {
+const ScreenFour = () => {
   return (
     <div className="w-full flex items-center justify-center flex-col">
       <div className="flex w-[90%] ">
@@ -15,4 +15,4 @@ const FourthPage = () => {
   );
 };
 
-export default FourthPage;
+export default ScreenFour;

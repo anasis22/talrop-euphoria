@@ -25,6 +25,10 @@ import feedbackThree from "/assets/images/feedbackThree.jpg"
 import ratingStarOne from "/assets/images/ratingStarOne.jpg"
 import ratingStarTwo from "/assets/images/ratingStarTwo.jpg"
 import ratingStarThree from "/assets/images/ratingStarThree.jpg"
+import whiteTshirt from "/assets/images/white-tshirt.jpg"
+import darkGreenSweatshirt from "/assets/images/dark-green-sweatshirt.jpg"
+import levenderSweatshirt from "/assets/images/levender-sweatshirt.jpg"
+import urbanJacket from "/assets/images/urban-jacket.jpg"
 
 
 const DataContext = React.createContext();
@@ -64,6 +68,10 @@ export const DataProvider = ({ children }) => {
     "feedbackOne.jpg" : feedbackOne,
     "feedbackTwo.jpg" : feedbackTwo,
     "feedbackThree.jpg" : feedbackThree,
+    "white-tshirt.jpg" : whiteTshirt,
+    "dark-green-sweatshirt.jpg" : darkGreenSweatshirt,
+    "levender-sweatshirt.jpg" : levenderSweatshirt,
+    "urban-jacket.jpg" : urbanJacket,
   }
 
   const ratingStarImgMap = {
@@ -73,7 +81,7 @@ export const DataProvider = ({ children }) => {
   }
 
   useEffect(() => {
-    fetch("/data.json")
+    fetch("/data/data.json")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Network response was not ok");

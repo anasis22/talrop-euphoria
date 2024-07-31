@@ -1,7 +1,7 @@
 import React from 'react'
-import MidBanner from '../MidBanner'
+import MidBanner from '../components/MidBanner'
 
-const ThirdPage = () => {
+const ScreenThree = () => {
   return (
     <div className='w-full h-screen  flex items-center justify-center'>
       <MidBanner />
@@ -9,4 +9,4 @@ const ThirdPage = () => {
   )
 }
 
-export default ThirdPage
+export default ScreenThree
