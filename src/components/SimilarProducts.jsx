@@ -12,6 +12,10 @@ const SimilarProducts = () => {
   const handleImageClick = (product) => {
     setSelectedProducts(product);
     navigate("/product-details-page");
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   };
 
   const handleWishListToggle = (event, productId) => {
