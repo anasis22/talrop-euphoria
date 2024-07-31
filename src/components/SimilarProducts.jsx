@@ -52,7 +52,7 @@ const SimilarProducts = () => {
                     {el.title}
                   </p>
                   <button className="bg-[#F6F6F6] text-[#3C4242] text-[12px] pr-3 pl-3 pt-1 pb-1 rounded-sm">
-                    {el.price}
+                    {el.price}ab
                   </button>
                 </div>
                 <p className="text-xs text-[#7F7F7F] mt-2">{el.brand}</p>
