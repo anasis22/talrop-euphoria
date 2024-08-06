@@ -338,5 +338,17 @@
         "price" : "$79.00",
         "gender" : "Men",
         "brand" : "Sagar's Brand"
+    },
+    {
+        "id": 28,
+        "heading" : "New Arrival",
+        "img": "knitted-joggers.jpg",
+        "thumbnailImgs" :[
+            "knitted-joggers.jpg",
+             "active-tshirts.jpg"
+        ],
+        "title": "Knitted Joggers",
+        "ratings": 2.5,
+        "price" : "$23.00"
     }
 ]

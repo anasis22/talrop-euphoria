@@ -13,7 +13,7 @@ const WomenCategories = () => {
   };
   return (
     <div
-      className="flex items-center justify-center flex-col gap-24 mt-8
+      className="w-[90%] flex items-center justify-center flex-col gap-24 mt-8
     xsm:flex-col xsm:gap-12
     sm:flex-row sm:flex-wrap
     md:flex-row md:flex-wrap

@@ -13,7 +13,7 @@ const MenCategories = () => {
   };
   return (
     <div
-      className="flex items-center justify-center flex-col gap-24 mt-8
+      className=" w-[90%] flex items-center justify-center flex-col mt-8 
     xsm:flex-col xsm:gap-12
     sm:flex-row sm:flex-wrap
     md:flex-row md:flex-wrap
@@ -26,7 +26,7 @@ const MenCategories = () => {
               <img
                 src={el.img}
                 alt={el.title}
-                className="hover:scale-105 transition-transform"
+                className="w-[]hover:scale-105 transition-transform"
               />
               <div className="w-full mt-4">
                 <div className="w-full  flex items-center justify-between">

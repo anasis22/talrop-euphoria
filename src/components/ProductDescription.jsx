@@ -27,12 +27,12 @@ const ProductDescription = () => {
             <p className="text-[#4d4c4c]
              xsm:text-xs
              md:text-lg">
-              User comments<span className="p-0.5 ml-1 text-white text-xs bg-base-color rounded-md">21</span>
+              User comments<span className="p-1 ml-3 text-white text-[12px] bg-base-color rounded-[3px]">21</span>
             </p>
             <p className="text-[#4d4c4c]
              xsm:text-xs
              md:text-lg">
-              Question & Answer<span className="p-0.5 ml-1 text-white text-xs bg-[#3C4242] rounded-md">4</span>
+              Question & Answer<span className="p-1 ml-3 text-white text-[12px] bg-[#3C4242] rounded-[3px]">4</span>
             </p>
           </li>
 
